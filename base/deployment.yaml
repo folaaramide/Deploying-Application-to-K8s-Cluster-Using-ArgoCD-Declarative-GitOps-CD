@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-sample-app
+spec:
+  selector:
+    matchLabels:
+      app: my-sample-app
+  template:
+    metadata:
+      labels:
+        app: my-sample-app
+    spec:
+      containers:
+      - name: nginx-container
+        image: nginx:1.25-alpine # Using a specific alpine version
+        ports:
+        - containerPort: 80
