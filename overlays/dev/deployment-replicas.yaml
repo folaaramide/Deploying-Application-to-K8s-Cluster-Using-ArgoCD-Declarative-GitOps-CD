@@ -3,4 +3,4 @@ kind: Deployment
 metadata:
   name: my-sample-app # Must match the name in the base deployment
 spec:
-  replicas: 3 # Initial replica count
+  replicas: 5 # Initial replica count
