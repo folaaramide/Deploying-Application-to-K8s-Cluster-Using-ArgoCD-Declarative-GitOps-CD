@@ -102,7 +102,7 @@ ArgoCD auto-syncs and updates the app live
 
 ### YAML Edit → Git Push → Auto-Sync Event
 
-![CLI: YAML Edit → Git Push → Auto-Sync Event](screenshots/yaml-edit-gitpush-autosync event.png)
+![CLI: YAML Edit → Git Push → Auto-Sync Event](screenshots/yaml-edit-gitpush-autosync-event.png)
 
 ### Scaling Replicas via YAML → GUI Reflects Change
 
