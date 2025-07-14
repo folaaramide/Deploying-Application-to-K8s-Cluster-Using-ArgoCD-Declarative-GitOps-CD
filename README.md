@@ -106,7 +106,7 @@ ArgoCD auto-syncs and updates the app live
 
 ### Scaling Replicas via YAML → GUI Reflects Change
 
-![Scaling Replicas via YAML → GUI Reflects Change](screenshots/replicas-scale-yaml-gui-change.png)
+![Scaling Replicas via YAML → GUI Reflects Change](screenshots/scaling-replicas-via-yaml-gui-reflects-change.png)
 
 ## ✅ Outcomes Demonstrated
 GitOps-based deployment strategy
