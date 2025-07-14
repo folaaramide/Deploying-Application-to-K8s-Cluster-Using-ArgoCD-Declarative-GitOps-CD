@@ -75,7 +75,7 @@ Expose the app service via NodePort or LoadBalancer:
 
 kubectl get svc
 
-Visit: http://<NodeIP>:<AppNodePort>
+Visit: (http://<NodeIP>:<AppNodePort>)
 
 7. Real-Time Updates & Sync
 Edit YAML (e.g., replica count)
