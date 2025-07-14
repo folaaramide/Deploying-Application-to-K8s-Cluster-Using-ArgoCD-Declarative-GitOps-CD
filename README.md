@@ -53,7 +53,7 @@ argocd login <ARGOCD_SERVER>
 Option A: Using CLI
 
 argocd app create my-web-app \
-  --repo https://github.com/yourusername/your-repo.git \
+  --repo https://github.com/folaaramide/myargocd-kustomize-app.git \
   --path overlays/dev \
   --dest-server https://kubernetes.default.svc \
   --dest-namespace default
@@ -71,20 +71,18 @@ Click Create and Sync
 
 6. Access the Deployed Application
 
-Expose the app service via NodePort or LoadBalancer:
+Expose the app service via NodePort.
 
 kubectl get svc
 
-Visit: (http://<NodeIP>:<AppNodePort>)
+Visit: http://NodeIP:AppNodePort
 
 7. Real-Time Updates & Sync
 Edit YAML (e.g., replica count)
 
 Commit & push to GitHub
 
-ArgoCD auto-syncs & updates the app live
-
-Embed in README like:
+ArgoCD auto-syncs and updates the app live
 
 ### ArgoCD Dashboard
 
