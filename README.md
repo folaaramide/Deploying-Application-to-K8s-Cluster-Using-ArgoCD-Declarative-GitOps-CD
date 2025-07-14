@@ -92,9 +92,21 @@ ArgoCD auto-syncs and updates the app live
 
 ![GitHub Repo Structure](screenshots/repo-structure.png)
 
-### Live Web App
+### CLI: App Creation with ArgoCD
 
-![Deployed App](screenshots/deployed-app.png)
+![CLI: App Creation with ArgoCD](screenshots/cli-app-created-argocd.png)
+
+### ArgoCD Sync Progress (GUI)
+
+![CLI: ArgoCD Sync Progress (GUI)](screenshots/cli-app-sync.png)
+
+### YAML Edit → Git Push → Auto-Sync Event
+
+![CLI: YAML Edit → Git Push → Auto-Sync Event](screenshots/yaml-edit-gitpush-autosync event.png)
+
+### Scaling Replicas via YAML → GUI Reflects Change
+
+![Scaling Replicas via YAML → GUI Reflects Change](screenshots/replicas-scale-yaml-gui-change.png)
 
 ## ✅ Outcomes Demonstrated
 GitOps-based deployment strategy
