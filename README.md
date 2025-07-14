@@ -15,3 +15,13 @@ Deploy a web application to a Kubernetes cluster with **ArgoCD** managing the ap
 ## 🧭 Project Architecture
 
 GitHub Repo (App Manifests) - > ArgoCD (in K8s) - > Kubernetes Cluster (App Deployed via Sync)
+
+🛠️ Tools and Technologies
+Kubernetes (kubeadm)
+ArgoCD (GitOps CD tool)
+Kustomize (for overlays)
+YAML, Git CLI, ArgoCD CLI
+GitHub (source of truth for manifests)
+NodePort (for ArgoCD Dashboard exposure)
+
+
