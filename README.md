@@ -51,6 +51,7 @@ argocd login <ARGOCD_SERVER>
 5. Deploy the Application
 
 Option A: Using CLI
+
 argocd app create my-web-app \
   --repo https://github.com/yourusername/your-repo.git \
   --path overlays/dev \
@@ -59,6 +60,7 @@ argocd app create my-web-app \
 argocd app sync my-web-app
 
 Option B: Using ArgoCD Dashboard
+
 Go to GUI
 
 Click "NEW APP"
@@ -68,6 +70,7 @@ Fill in app name, repo, path, etc.
 Click Create and Sync
 
 6. Access the Deployed Application
+
 Expose the app service via NodePort or LoadBalancer:
 
 kubectl get svc
