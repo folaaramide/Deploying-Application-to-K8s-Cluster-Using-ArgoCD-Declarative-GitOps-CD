@@ -98,7 +98,7 @@ ArgoCD auto-syncs and updates the app live
 
 ### ArgoCD Sync Progress (GUI)
 
-![CLI: ArgoCD Sync Progress (GUI)](screenshots/cli-app-sync.png)
+![CLI: ArgoCD Sync Progress (GUI)](screenshots/argocd-sync-progress-gui.png)
 
 ### YAML Edit → Git Push → Auto-Sync Event
 
