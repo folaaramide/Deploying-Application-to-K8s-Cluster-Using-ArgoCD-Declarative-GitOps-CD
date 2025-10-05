@@ -47,9 +47,9 @@ kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "NodePort"}}'
 ```
 
 Access the dashboard:
-
+```
 http://<NodeIP>:<NodePort>
-
+```
 4. Install ArgoCD CLI
 Download CLI
 
